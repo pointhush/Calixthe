@@ -1,0 +1,3 @@
+$(function() {
+    $(".faddingheader").addClass("load");
+});

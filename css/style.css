@@ -1,5 +1,5 @@
 body {
-    background-image: url("img\spikes.png");
+    background-image: url("../img/spikes.png");
 }
 
 h1 {
@@ -23,4 +23,20 @@ header {
     max-width: 1200px;
     margin: auto;
     padding-top: 40vh;
+}
+
+
+/* On teste */
+
+.faddingheader {
+    opacity: 0;
+    -webkit-transition: opacity 2s ease-in;
+    -moz-transition: opacity 2s ease-in;
+    -o-transition: opacity 2s ease-in;
+    -ms-transition: opacity 2s ease-in;
+    transition: opacity 2s ease-in;
+}
+
+.faddingheader.load {
+    opacity: 1;
 }
