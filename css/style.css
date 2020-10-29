@@ -1,0 +1,26 @@
+body {
+    background-image: url("img\spikes.png");
+}
+
+h1 {
+    font-family: 'Parisienne', cursive;
+    text-align: center;
+    font-size: 10vw;
+    margin-bottom: 0;
+    line-height: 15vh;
+    white-space: nowrap;
+}
+
+.subtitle {
+    font-family: 'Merriweather', serif;
+    text-align: right;
+    font-style: italic;
+    text-transform: uppercase;
+    padding-right: 10vw;
+}
+
+header {
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 40vh;
+}
