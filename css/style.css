@@ -42,7 +42,7 @@ header {
     opacity: 1;
 }
 
-nav {
+nav.primenave {
     text-align: center;
     padding-top: 10vh;
     font-family: 'Merriweather', serif;
@@ -64,5 +64,25 @@ nav.load {
 
 .pleinepage {
     height: 92vh;
-    padding-top: 8vh;
+}
+
+#prezi {
+    padding-bottom: 8vh;
+}
+
+.textintro {
+    text-align: justify;
+    font-family: serif;
+    font-style: italic;
+    font-size: 1rem
+}
+
+.hello {
+    font-family: 'Parisienne', cursive;
+    font-size: 2rem;
+}
+
+.textquisuit {
+    text-align: justify;
+    font-family: serif;
 }

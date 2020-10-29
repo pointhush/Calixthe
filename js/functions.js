@@ -4,7 +4,7 @@ $(document).ready(function() {
     });
 
     function navi() {
-        $("nav").addClass("load");
+        $(".primenave").addClass("load");
     };
     setTimeout(navi, 1500);
 
