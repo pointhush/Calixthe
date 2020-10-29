@@ -1,5 +1,6 @@
 body {
     background-image: url("../img/spikes.png");
+    overflow-y: hidden;
 }
 
 h1 {
@@ -49,6 +50,7 @@ nav {
     font-style: italic;
     font-size: 1.4vw;
     opacity: 0;
+    padding-bottom: 100vh;
     -webkit-transition: opacity 2s ease-in;
     -moz-transition: opacity 2s ease-in;
     -o-transition: opacity 2s ease-in;
@@ -58,4 +60,9 @@ nav {
 
 nav.load {
     opacity: 1;
+}
+
+.pleinepage {
+    height: 92vh;
+    padding-top: 8vh;
 }
