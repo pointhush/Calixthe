@@ -40,3 +40,22 @@ header {
 .faddingheader.load {
     opacity: 1;
 }
+
+nav {
+    text-align: center;
+    padding-top: 10vh;
+    font-family: 'Merriweather', serif;
+    text-transform: capitalize;
+    font-style: italic;
+    font-size: 1.4vw;
+    opacity: 0;
+    -webkit-transition: opacity 2s ease-in;
+    -moz-transition: opacity 2s ease-in;
+    -o-transition: opacity 2s ease-in;
+    -ms-transition: opacity 2s ease-in;
+    transition: opacity 2s ease-in;
+}
+
+nav.load {
+    opacity: 1;
+}
