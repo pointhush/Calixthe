@@ -89,3 +89,7 @@ nav.load {
     text-align: justify;
     font-family: serif;
 }
+
+svg {
+    fill: deepPink;
+}
