@@ -49,7 +49,7 @@ nav.primenave {
     font-family: 'Merriweather', serif;
     text-transform: capitalize;
     font-style: italic;
-    font-size: 1.4vw;
+    font-size: 1.2vw;
     opacity: 0;
     padding-bottom: 100vh;
     -webkit-transition: opacity 2s ease-in;
@@ -57,6 +57,7 @@ nav.primenave {
     -o-transition: opacity 2s ease-in;
     -ms-transition: opacity 2s ease-in;
     transition: opacity 2s ease-in;
+    white-space: nowrap;
 }
 
 nav.load {
@@ -75,9 +76,9 @@ nav.load {
 
 .textintro {
     text-align: justify;
-    font-family: serif;
+    font-family: sans-serif;
     font-style: italic;
-    font-size: 1rem
+    font-size: 0.85rem;
 }
 
 .hello {
@@ -87,9 +88,21 @@ nav.load {
 
 .textquisuit {
     text-align: justify;
-    font-family: serif;
+    font-family: sans-serif;
+    font-size: 1rem;
 }
 
 svg {
     fill: deepPink;
+}
+
+h3 {
+    font-family: 'Merriweather', serif;
+    font-size: 1.8rem;
+    font-style: italic;
+    ;
+}
+
+h4 {
+    font-family: 'Merriweather', serif;
 }
